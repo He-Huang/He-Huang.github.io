@@ -1,6 +1,6 @@
 #toggle-sidebar {
   bottom: 80px;
-  left: 100px
+  left: 100px;
 }
 
 /* 页脚footer */
@@ -72,4 +72,82 @@
 
 .myself-intro-item {
   width: 50%;
+}
+
+#site-title {
+  color: #ee7752 !important;
+}
+#subtitle {
+  color: #ee7752 !important;
+}
+#page-header.full_page #site-info {
+  top: 70% !important;
+}
+
+/* 自定义弹窗，未实现 */
+.custom-dialog {
+  width: 400px;
+  height: 260px;
+  background: #cfd6d8;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.custom-dialog p {
+  color: #ee7752;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.customer-input {
+  width: 100%;
+  height: 40px;
+  padding-left: 50px;
+}
+.customer-input input {
+  width: 80%;
+  height: 40px;
+  border: 1px;
+  border-radius: 5px;
+}
+.customer-input input:focus-visible {
+  border-color: #40a9ff;
+  border-width: 1px !important;
+}
+
+.customer-footer-btn {
+  width: 100%;
+  height: 40px;
+  padding: 4px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+.customer-footer-btn .queren {
+  color: #fff;
+  background-color: #1890ff;
+  border-color: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  height: 40px;
+  padding: 0 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 40px;
+}
+.customer-footer-btn .quxiao {
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  height: 40px;
+  padding: 0 15px;
+  font-size: 16px;
+  border-radius: 4px;
 }
