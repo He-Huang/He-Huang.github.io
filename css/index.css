@@ -3480,6 +3480,7 @@ _:future,
 #sidebar #sidebar-menus .menus_items .menus_item_child {
   margin: 0;
   list-style: none;
+  display: none;
 }
 #vcomment,
 #waline {
@@ -3508,6 +3509,12 @@ _:future,
 #vcomment .vcards .vcard .vcontent.expand:after,
 #waline .vcards .vcard .vcontent.expand:after {
   z-index: 22;
+}
+#vcomment textarea {
+  background: url("https://butterfly.js.org/img/comment_bg.png") 100% 100% no-repeat;
+}
+#vcomment textarea:focus {
+  background-image: none;
 }
 .fireworks {
   position: fixed;
